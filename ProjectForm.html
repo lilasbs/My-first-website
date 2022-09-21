@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project Information</title>
+</head>
+
+<body>  
+
+    <form>
+        <fieldset id="project_information" style="background-color: rgba(176, 202, 178, 0.425);">
+            <legend><b>Project Information</b></legend>
+            <ol>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" name="name">
+                </li>
+            </br><li>
+                    <label for="priority">Priority</label>
+                    <input type="range" min="0" max="10" 
+                           name="priority" value="0">
+                </li>
+            </br><li>
+                    <label for="estimated_hours">Estimated hours</label>
+                    <input type="number" name="estimated_hours"
+                           min="0" max="1000">
+                </li>
+
+            </br><li>
+                    <label for="start_date">Start date</label>
+                    <input type="date" name="Start_date" id="start_date"
+                           value="2010-12-01">
+                </li>
+            </br><li>
+                    <label for="email">Email contact</label>
+                    <input type="email" name="email" id="email">
+                </li>
+            </br><li>
+                    <label for="url">Staging URL</label>
+                    <input type="url" name="url" id="url">
+                </li>
+            </ol>
+        </fieldset>
+    </br>
+        <fieldset id="address_information" style="background-color: rgba(176, 202, 178, 0.425)">
+            <legend><b>Address Information</b></legend>
+            <ol>
+                <li>
+                    <label for="city">City</label>
+                    <input type="city" name="city" id="city">
+                </li>
+            </br><li>
+                    <label for="postcode">Postcode</label>
+                    <input type="postcode" name="postcode" id="postcode">
+                </li>
+            </br><li>
+                    <label for="building_number">Building Number</label>
+                    <input type="building_number" name="building_number" id="building_number">
+                </li>
+            </ol>
+        </fieldset>
+    </br>
+        <fieldset id="company_information" style='background-color: rgba(176, 202, 178, 0.425);'>
+            <legend><b>Company information</b></legend>
+            <ol>
+                <li>
+                    <label for="employee_number">Number of employees</label>
+                    <input type="number" name="employee_number" id="employee_number"
+                           min="0" max="100">
+                </li>
+            </br><li>
+                    <label for="company_budget">Budget of the company</label>
+                    <input type="company_budget" name="company_budget" id="company_budget">
+                </li>
+            </br><li>
+                <label for="department_number">Number of departments</label>
+                <input type="number" name="department_number" id="department_number">
+            </li>
+        </br><li>
+            <label for="company_location">Location</label>
+            <input type="location" name="location" id="location">
+        </li>
+            </ol>
+        </fieldset>
+    </br>
+        <input type="submit" value="Submit" style="background-color: rgb(167, 170, 173);">
+    </form>
+</body>
+</html>
